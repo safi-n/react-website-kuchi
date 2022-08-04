@@ -2,11 +2,11 @@
   display: flex;
   width: 100vw;
   height: 7em;
-  background-color: black;
   align-items: center;
   justify-content: center;
 }
 
-.navbar-container div {
+.navbar-container div{
   padding: 1em;
 }
+
