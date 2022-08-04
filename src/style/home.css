@@ -17,9 +17,26 @@
 }
 .technical-list{
   width: 25em;
-  height: 8em;
+  height: 11em;
 }
 .technical-list img{
   width: 25em;
   height: 5em;
+}
+.organizational-lists{
+  width: 100%;
+}
+.organizational-list{
+  width: 25em;
+  height: 11em;
+}
+.organizational-list img{
+  width: 25em;
+  height: 5em;
+}
+
+
+.serviced-box{
+  width: 20em;
+  height: 9em;
 }
