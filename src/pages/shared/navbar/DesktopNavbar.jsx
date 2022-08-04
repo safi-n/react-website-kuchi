@@ -23,10 +23,10 @@ const DesktopNavbar = () => {
 
   window.addEventListener('scroll', changeColor)
   return (
-    <>
+    <div className={pathMatch("/") ?  "" : "navbar-container bg-black"}>
       <div
         className={
-          pathMatch("/") && color ?  "navbar-container bg-header" : "navbar-container bg-black"
+          color ? 'bg-header navbar-container' : 'navbar-container' 
         }
       >
         <div className="navbar-link">
@@ -103,7 +103,7 @@ const DesktopNavbar = () => {
           </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
