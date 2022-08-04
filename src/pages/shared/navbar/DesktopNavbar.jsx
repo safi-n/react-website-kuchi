@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "../../../style/navbar.css";
+import kuchiLogoWhite from '../../../assets/logo/KuchiLogo-white.svg'
 
 const DesktopNavbar = () => {
   const [color, setColor] = useState(false);
@@ -65,7 +66,9 @@ const DesktopNavbar = () => {
             Production
           </Link>
         </div>
-        <div className="navbar-logo"></div>
+        <div className="navbar-logo">
+          <img src={kuchiLogoWhite} alt="" />
+        </div>
         <div className="navbar-link">
           <Link
             to="/programs"
