@@ -1,20 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "../../../style/navbar.css";
 
 const DesktopNavbar = () => {
+  const [color, setColor] = useState(false);
   const location = useLocation();
+
   const pathMatch = (route) => {
     if (route === location.pathname) {
       return location;
     }
   };
+
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeColor)
   return (
     <>
       <div
         className={
-          pathMatch("/") ? "navbar-container" : "navbar-container bg-black"
+          pathMatch("/") && color ?  "navbar-container bg-header" : "navbar-container bg-black"
         }
       >
         <div className="navbar-link">
