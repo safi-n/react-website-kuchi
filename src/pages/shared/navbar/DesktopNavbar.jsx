@@ -14,7 +14,7 @@ const DesktopNavbar = () => {
   };
 
   const changeColor = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 350) {
       setColor(true);
     } else {
       setColor(false);
