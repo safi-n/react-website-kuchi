@@ -26,13 +26,13 @@
 .organizational-lists{
   width: 100%;
 }
-.organizational-list{
+/* .organizational-list{
   width: 25em;
-  height: 11em;
-}
+} */
 .organizational-list img{
-  width: 25em;
-  height: 5em;
+  width: 24em;
+  height: 11em;
+  background-size: contain;
 }
 
 

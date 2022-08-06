@@ -1,5 +1,5 @@
 import technicalList from "../../data/technical-list.json";
-import organizationalList from "../../data/organizational-list.json";
+import OrganizationalCat from "../../data/OrganizationalCat";
 import { Link } from "react-router-dom";
 import "../../style/home.css";
 import kuchiBaba from "../../assets/IMG/kuchiBaba.jpg";
@@ -14,7 +14,7 @@ import logoContent8 from '../../assets/logo/vFnvkb.tif@2x.png'
 import logoContent9 from '../../assets/logo/ZRPMbi.tif@2x.png'
 import LatestWorkList from "../../components/homepage/LatestWorkList";
 
-const HomePage = ({image, title, description}) => {
+const HomePage = () => {
   return (
     <>
       <div className="main-cont flex flex-col">
@@ -70,11 +70,11 @@ const HomePage = ({image, title, description}) => {
                 </div>
               </div>
               <div className="organizational-lists flex justify-between">
-                {organizationalList.map((list) => {
+                {OrganizationalCat.map((list) => {
                   return (
-                    <div className="organizational-list bg-grey p-4">
-                      <img src={list.url} alt="list pic" />
-                      {list.caption}
+                    <div className="organizational-list bg-grey">
+                      <img src={list.image} alt="list pic" />
+                      {list.title}
                     </div>
                   );
                 })}
