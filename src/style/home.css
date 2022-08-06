@@ -39,4 +39,11 @@
 .serviced-box{
   width: 20em;
   height: 9em;
+  padding:  4em;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.serviced-box img{
+  height: 5em;
 }

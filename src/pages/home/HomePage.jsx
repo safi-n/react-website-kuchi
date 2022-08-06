@@ -1,9 +1,17 @@
-import React from "react";
+import technicalList from "../../data/technical-list.json";
+import organizationalList from "../../data/organizational-list.json";
 import { Link } from "react-router-dom";
 import "../../style/home.css";
 import kuchiBaba from "../../assets/IMG/kuchiBaba.jpg";
-import technicalList from "../../data/technical-list.json";
-import organizationalList from "../../data/organizational-list.json";
+import logoContent from '../../assets/logo/Asset 6@2x.png'
+import logoContent2 from '../../assets/logo/Asset 8@2x.png'
+import logoContent3 from '../../assets/logo/EXCJ3m@2x.png'
+import logoContent4 from '../../assets/logo/GRVbbi.tif@2x.png'
+import logoContent5 from '../../assets/logo/hqFXYn@2x.png'
+import logoContent6 from '../../assets/logo/VD03La.tif@2x.png'
+import logoContent7 from '../../assets/logo/Zr5RCG.tif@2x.png'
+import logoContent8 from '../../assets/logo/vFnvkb.tif@2x.png'
+import logoContent9 from '../../assets/logo/ZRPMbi.tif@2x.png'
 
 const HomePage = () => {
   return (
@@ -71,27 +79,42 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <div className="content-serviced">
-            <div className="serviced-row-1 flex p-4 border-primary">
-              <div className="serviced-box ">
-                <img src={kuchiBaba} alt="logos - comtent" />
+          <div className="content-serviced mt-36">
+            {/* Row 1 */}
+            <div className="serviced-row-1 flex p-8 border-primary justify-center items-center">
+              <div className="serviced-box shadow-lg p-3">
+                <img src={logoContent} alt="logos - comtent" />
               </div>
-              <div className="serviced-box">
-                <img src={kuchiBaba} alt="logos - comtent" />
+              <div className="serviced-box  shadow-lg p-5 m-8">
+                <img src={logoContent2} alt="logos - comtent" />
               </div>
-              <div className="serviced-box">
-                <img src={kuchiBaba} alt="logos - comtent" />
+              <div className="serviced-box  shadow-lg p-5 m-8">
+                <img src={logoContent3} alt="logos - comtent" />
               </div>
             </div>
-            <div className="serviced-row-2">
-              <div className="serviced-box"></div>
-              <div className="serviced-box"></div>
-              <div className="serviced-box"></div>
+            {/* Row 2 */}
+            <div className="serviced-row-2 flex p-4 border-primary justify-center">
+              <div className="serviced-box shadow-lg p-5 m-8">
+                <img src={logoContent4} alt="logos - comtent" />
+              </div>
+              <div className="serviced-box shadow-lg p-5 m-8">
+                <img src={logoContent5} alt="logos - comtent" />
+              </div>
+              <div className="serviced-box shadow-lg p-5 m-8">
+                <img src={logoContent6} alt="logos - comtent" />
+              </div>
             </div>
-            <div className="serviced-row-3">
-              <div className="serviced-box"></div>
-              <div className="serviced-box"></div>
-              <div className="serviced-box"></div>
+            {/* Row 3 */}
+            <div className="serviced-row-3 flex p-4 border-primary justify-center">
+              <div className="serviced-box shadow-lg p-5 m-8">
+                <img src={logoContent7} alt="logos - comtent" />
+              </div>
+              <div className="serviced-box shadow-lg p-5 m-8 items-center">
+                <img src={logoContent8} alt="logos - comtent" />
+              </div>
+              <div className="serviced-box shadow-lg p-5 m-8">
+                <img src={logoContent9} alt="logos - comtent" />
+              </div>
             </div>
           </div>
         </div>
