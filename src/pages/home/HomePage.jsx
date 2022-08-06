@@ -12,8 +12,9 @@ import logoContent6 from '../../assets/logo/VD03La.tif@2x.png'
 import logoContent7 from '../../assets/logo/Zr5RCG.tif@2x.png'
 import logoContent8 from '../../assets/logo/vFnvkb.tif@2x.png'
 import logoContent9 from '../../assets/logo/ZRPMbi.tif@2x.png'
+import LatestWorkList from "../../components/homepage/LatestWorkList";
 
-const HomePage = () => {
+const HomePage = ({image, title, description}) => {
   return (
     <>
       <div className="main-cont flex flex-col">
@@ -21,6 +22,7 @@ const HomePage = () => {
           <img src={kuchiBaba} alt="" />
         </div>
         <div className="home-container text-center">
+          {/* ------ ABOUT KUCHI */}
           <div className="about-kuchi flex flex-col items-center mb-32">
             <h2 className="text-3xl font-medium mb-8">
               <span className="font-light">ABOUT</span> KUCHI
@@ -31,7 +33,7 @@ const HomePage = () => {
               organizations who want to exciteaudiences to action.
             </p>
           </div>
-          {/* Our services */}
+          {/* ------ OUR SERVICES */}
           <div className="our-service">
             <div className="our-service-title">
               <h2 className="text-3xl font-medium mb-8">
@@ -79,9 +81,13 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <div className="content-serviced mt-36">
+          {/* ----- CONTENT SERVICES */}
+          <div className="content-serviced mt-36 mb-32">
+            <div className="content-service-title">
+              <h2 className="text-3xl font-light mb-20">WE SERVICED <span className="font-bold">CONTENT</span> FOR</h2>
+            </div>
             {/* Row 1 */}
-            <div className="serviced-row-1 flex p-8 border-primary justify-center items-center">
+            <div className="serviced-row-1 flex p-8 border-primary items-center">
               <div className="serviced-box shadow-lg p-3">
                 <img src={logoContent} alt="logos - comtent" />
               </div>
@@ -93,7 +99,7 @@ const HomePage = () => {
               </div>
             </div>
             {/* Row 2 */}
-            <div className="serviced-row-2 flex p-4 border-primary justify-center">
+            <div className="serviced-row-2 flex p-4 border-primary items-center">
               <div className="serviced-box shadow-lg p-5 m-8">
                 <img src={logoContent4} alt="logos - comtent" />
               </div>
@@ -105,7 +111,7 @@ const HomePage = () => {
               </div>
             </div>
             {/* Row 3 */}
-            <div className="serviced-row-3 flex p-4 border-primary justify-center">
+            <div className="serviced-row-3 flex p-4 border-primary items-center">
               <div className="serviced-box shadow-lg p-5 m-8">
                 <img src={logoContent7} alt="logos - comtent" />
               </div>
@@ -115,6 +121,19 @@ const HomePage = () => {
               <div className="serviced-box shadow-lg p-5 m-8">
                 <img src={logoContent9} alt="logos - comtent" />
               </div>
+            </div>
+          </div>
+
+          {/* ------ OUR LATEST WORK */}
+          <div className="latest-work-container">
+            <div className="latest-work-title mb-32">
+                <h2 className="font-light text-3xl">OUR LATEST <span className="font-bold">WORK</span></h2>
+            </div>
+            <div className="latest-work-category">
+              <h2 className="text-primary text-left mb-2">DOCUMANTARY</h2>
+            </div>
+            <div className="latest-works-list grid grid-flow-col grid-row-1">
+            <LatestWorkList/>
             </div>
           </div>
         </div>
