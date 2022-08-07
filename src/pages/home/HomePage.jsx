@@ -1,18 +1,19 @@
-import technicalList from "../../data/technical-list.json";
+import TechnicalCat from "../../data/TechnicalCat";
 import OrganizationalCat from "../../data/OrganizationalCat";
 import { Link } from "react-router-dom";
 import "../../style/home.css";
 import kuchiBaba from "../../assets/IMG/kuchiBaba.jpg";
-import logoContent from '../../assets/logo/Asset 6@2x.png'
-import logoContent2 from '../../assets/logo/Asset 8@2x.png'
-import logoContent3 from '../../assets/logo/EXCJ3m@2x.png'
-import logoContent4 from '../../assets/logo/GRVbbi.tif@2x.png'
-import logoContent5 from '../../assets/logo/hqFXYn@2x.png'
-import logoContent6 from '../../assets/logo/VD03La.tif@2x.png'
-import logoContent7 from '../../assets/logo/Zr5RCG.tif@2x.png'
-import logoContent8 from '../../assets/logo/vFnvkb.tif@2x.png'
-import logoContent9 from '../../assets/logo/ZRPMbi.tif@2x.png'
+import logoContent from "../../assets/logo/Asset 6@2x.png";
+import logoContent2 from "../../assets/logo/Asset 8@2x.png";
+import logoContent3 from "../../assets/logo/EXCJ3m@2x.png";
+import logoContent4 from "../../assets/logo/GRVbbi.tif@2x.png";
+import logoContent5 from "../../assets/logo/hqFXYn@2x.png";
+import logoContent6 from "../../assets/logo/VD03La.tif@2x.png";
+import logoContent7 from "../../assets/logo/Zr5RCG.tif@2x.png";
+import logoContent8 from "../../assets/logo/vFnvkb.tif@2x.png";
+import logoContent9 from "../../assets/logo/ZRPMbi.tif@2x.png";
 import LatestWorkList from "../../components/homepage/LatestWorkList";
+import PhotoWorkList from "../../components/homepage/PhotoWorkList";
 
 const HomePage = () => {
   return (
@@ -49,11 +50,13 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="technical-lists flex justify-between">
-                {technicalList.map((list) => {
+                {TechnicalCat.map((list) => {
                   return (
-                    <div className="technical-list bg-grey p-4">
-                      <img src={list.url} alt="list pic" />
-                      {list.caption}
+                    <div className="organizational-list">
+                      <img src={list.image} alt="list pic" />
+                      <h2 className="mt-3 text-left font-medium">
+                        {list.title}
+                      </h2>
                     </div>
                   );
                 })}
@@ -72,9 +75,11 @@ const HomePage = () => {
               <div className="organizational-lists flex justify-between">
                 {OrganizationalCat.map((list) => {
                   return (
-                    <div className="organizational-list bg-grey">
+                    <div className="organizational-list">
                       <img src={list.image} alt="list pic" />
-                      {list.title}
+                      <h2 className="mt-3 text-left font-medium">
+                        {list.title}
+                      </h2>
                     </div>
                   );
                 })}
@@ -84,7 +89,9 @@ const HomePage = () => {
           {/* ----- CONTENT SERVICES */}
           <div className="content-serviced mt-36 mb-32">
             <div className="content-service-title">
-              <h2 className="text-3xl font-light mb-20">WE SERVICED <span className="font-bold">CONTENT</span> FOR</h2>
+              <h2 className="text-3xl font-light mb-20">
+                WE SERVICED <span className="font-bold">CONTENT</span> FOR
+              </h2>
             </div>
             {/* Row 1 */}
             <div className="serviced-row-1 flex p-8 border-primary items-center">
@@ -127,13 +134,27 @@ const HomePage = () => {
           {/* ------ OUR LATEST WORK */}
           <div className="latest-work-container">
             <div className="latest-work-title mb-32">
-                <h2 className="font-light text-3xl">OUR LATEST <span className="font-bold">WORK</span></h2>
+              <h2 className="font-light text-3xl">
+                OUR LATEST <span className="font-bold">WORK</span>
+              </h2>
             </div>
+            {/* Work Documentary List */}
             <div className="latest-work-category">
-              <h2 className="text-primary text-left mb-2">DOCUMANTARY</h2>
+              <h2 className="text-primary text-left mb-2 text-xl">
+                DOCUMANTARIES
+              </h2>
             </div>
             <div className="latest-works-list grid grid-flow-col grid-row-1">
-            <LatestWorkList/>
+              <LatestWorkList />
+            </div>
+            {/* Work Photo List */}
+            <div className="latest-work-category mt-16">
+              <h2 className="text-primary text-left mb-2 text-xl">
+                PHOTOS
+              </h2>
+            </div>
+            <div className="latest-works-list grid grid-flow-col grid-row-1">
+              <PhotoWorkList/>
             </div>
           </div>
         </div>

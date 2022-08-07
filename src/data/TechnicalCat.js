@@ -1,21 +1,21 @@
 import Logo from '../assets/IMG/kuchiBaba.jpg'
-const OrganizationalCat = [
+const TechnicalCat = [
   {
     id: "01",
     image: Logo,
-    title: "MULTI-LANGUAGE CAPABILITY" 
+    title: "PRODUCTION CAPABILITY" 
   },
   {
     id: "02",
     image: Logo,
-    title: "ABILITY TO TRAVEL" 
+    title: "GRAPHIC DESIGN CAPABILITY" 
   },
   {
     id: "03",
     image: Logo,
-    title: "ACCESS TO RECORDING STUDIO" 
+    title: "ANIMATION CAPABILITY" 
   },
   
 ]
 
-export default OrganizationalCat
+export default TechnicalCat
