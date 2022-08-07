@@ -14,9 +14,9 @@ const DesktopFooter = () => {
         {/* -- */}
         <div className="links-footer"></div>
         {/* -- */}
-        <div className="social-media-footer flex flex-col">
+        <div className="social-media-footer flex flex-col pr-20">
           <h2 className='text-2xl'>CONTACT WITH US</h2>
-          <div className="social-media-icons-footer flex justify-evenly p-3">
+          <div className="social-media-icons-footer flex justify-evenly mt-5">
             <img src={Facebook} alt="FB logo" />
             <img src={Twitter} alt="TW logo" />
             <img src={Youtube} alt="YT logo" />
