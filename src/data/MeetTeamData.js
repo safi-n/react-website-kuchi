@@ -18,7 +18,7 @@ const MeetTeamData = [
     id: '03',
     image: Photo,
     name: 'SAFI NOORZAI',
-    position: 'Multi-Media Designer & Fullstack Developer',
+    position: 'Graphic Design & Fullstack Developer',
     biography: 'Safiullah was born in Afghanistan and grew up in the southern city of Kandahar. He completed his high school at Afghan-Turk High School and went to India for his higher education. He obtained a Bachelor’s degree at iiiTB College, Bangalore and came back to Afghanistan in 2015 to work at the Administrative Office of the President (AOP) as an IT Assistant Manger. After 2 years of working in AOP, he entered the field of Art. Since then, he has worked with several national and international Tech, Media & Production companies as a multi-media designer. He has developed several websites & web-applications and worked on 50+ documentaries.'
   },
   {
