@@ -14,6 +14,7 @@ import logoContent8 from "../../assets/logo/vFnvkb.tif@2x.png";
 import logoContent9 from "../../assets/logo/ZRPMbi.tif@2x.png";
 import LatestWorkList from "../../components/homepage/LatestWorkList";
 import PhotoWorkList from "../../components/homepage/PhotoWorkList";
+import AnimationWorkList from "../../components/homepage/AnimationWorkList";
 
 const HomePage = () => {
   return (
@@ -153,8 +154,17 @@ const HomePage = () => {
                 PHOTOS
               </h2>
             </div>
-            <div className="latest-works-list grid grid-flow-col grid-row-1">
+            <div className="latest-works-list grid grid-flow-col grid-row-1 mb-20">
               <PhotoWorkList/>
+            </div>
+            {/* Animation Work List */}
+            <div className="latest-work-category">
+              <h2 className="text-primary text-left mb-2 text-xl">
+                ANIMATION
+              </h2>
+            </div>
+            <div className="latest-works-list grid grid-flow-col grid-row-1 mb-20">
+              <AnimationWorkList />
             </div>
           </div>
         </div>
