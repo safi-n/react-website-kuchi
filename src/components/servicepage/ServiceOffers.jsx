@@ -26,17 +26,17 @@ const offerLists = [
 const ServiceOffers = () => {
   return (
     <div className='service-offer-container'>
-      <div className="offer-title">
-
+      <div className="offer-title text-center mb-12">
+        <h2 className='text-3xl font-light leading-10'>WHAT VIDEO PRODUCTION SERVICES <br/>DOES <span className='font-medium'>KUCHI FILMS OFFER?</span></h2>
       </div>
       <div className="offer-lists">
-        <ul className='flex'>
+        <ul className='flex justify-between'>
           {offerLists.map(offer => {
             return (
-              <li key={offer.id}>
+              <li key={offer.id} className='p-10 w-96'>
                 <img src={offer.image} alt="offer pic" className='h-44 mb-6'/>
-                <h2 className='mb-5'>{offer.title}</h2>
-                <p>{offer.description}</p>
+                <h2 className='mb-5 text-lg'>{offer.title}</h2>
+                <p className='text-grey font-extralight text-xs leading-6'>{offer.description}</p>
               </li>
             )
           })}

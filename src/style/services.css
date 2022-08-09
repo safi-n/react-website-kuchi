@@ -6,3 +6,7 @@
 .main-paragraf{
   width: 32em;
 }
+
+.service-hww-mockup {
+  background-image: url('../assets/Mockups/ServiceHWWork.svg');
+}

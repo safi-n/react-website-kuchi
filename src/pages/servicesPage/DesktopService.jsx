@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceHowWork from '../../components/servicepage/ServiceHowWork'
 import ServiceMain from '../../components/servicepage/ServiceMain'
 import ServiceOffers from '../../components/servicepage/ServiceOffers'
 
@@ -9,6 +10,7 @@ const DesktopService = () => {
       <div className="services-container">
         <ServiceOffers />
       </div>
+      <ServiceHowWork/>
     </div>
   )
 }
