@@ -8,5 +8,11 @@
 }
 
 .service-hww-mockup {
-  background-image: url('../assets/Mockups/ServiceHWWork.svg');
+  background-image: url('../assets/Mockups/ServiceHWWork2.png');
+  height: 50em;
+  background-repeat: no-repeat;
+}
+
+.hww-photos{
+  height: 23em;
 }

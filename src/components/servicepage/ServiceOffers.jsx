@@ -25,7 +25,7 @@ const offerLists = [
 ]
 const ServiceOffers = () => {
   return (
-    <div className='service-offer-container'>
+    <div className='service-offer-container mb-16'>
       <div className="offer-title text-center mb-12">
         <h2 className='text-3xl font-light leading-10'>WHAT VIDEO PRODUCTION SERVICES <br/>DOES <span className='font-medium'>KUCHI FILMS OFFER?</span></h2>
       </div>

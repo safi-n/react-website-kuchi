@@ -1,7 +1,8 @@
 import React from "react";
-import ServicePhone from '../../assets/IMG/ServicePhone.jpg'
-import ServiceLocation from '../../assets/IMG/ServiceLocation.jpg'
-import ServiceShooting from '../../assets/IMG/ServiceShooting.jpg'
+import { v4 as uuidv4 } from 'uuid';
+import ServiceLocation from '../../assets/IMG/ServiceLocation.png'
+import ServiceShooting from '../../assets/IMG/ServiceShooting.png'
+import ServicePhone from '../../assets/IMG/ServicePhone.png'
 
 const workLists = [
   {
@@ -25,11 +26,11 @@ const workLists = [
 ]
 const ServiceHowWork = () => {
   return (
-    <div className="service-how-we-work-container h-screen">
-      <div className="service-hww-mockup">
-        <div className="content">
-          <h2>HOW WE WORK</h2>
-          <p>
+    <div className="service-how-we-work-container mb-56">
+      <div className="service-hww-mockup pt-9 p-9">
+        <div className="service-hww-content flex flex-col p-10 pl-56 pr-56">
+          <h2 className="text-3xl text-white text-center mb-7 mt-10">HOW WE WORK</h2>
+          <p className="text-white font-light text-md text-center mb-2 leading-9">
             Kuchi films is not only a international projects led company, but
             can also an easy-to-work-with organization as a media production
             company, we streamlined our process so that our clients finds it
@@ -37,9 +38,17 @@ const ServiceHowWork = () => {
           </p>
         </div>
         <div className="work-lists">
-          <ul>
+          <ul className="flex justify-between">
             {
-
+            workLists.map(work => {
+              return(
+                <li key={work.id} className='mt-10'>
+                  <img src={work.image} alt="work list img" className="hww-photos"/>
+                  <h2 className="mb-5 font-medium pl-6">{work.title}</h2>
+                  <p className="pl-6 pr-20 font-extralight text-sm text-grey">{work.description}</p>
+                </li>
+              )
+            })
             }
           </ul>
         </div>
