@@ -2,6 +2,7 @@ import React from 'react'
 import ServiceHowWork from '../../components/servicepage/ServiceHowWork'
 import ServiceMain from '../../components/servicepage/ServiceMain'
 import ServiceOffers from '../../components/servicepage/ServiceOffers'
+import ServiceWorkUs from '../../components/servicepage/ServiceWorkUs'
 
 const DesktopService = () => {
   return (
@@ -11,6 +12,7 @@ const DesktopService = () => {
         <ServiceOffers />
       </div>
       <ServiceHowWork/>
+      <ServiceWorkUs />
     </div>
   )
 }

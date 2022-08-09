@@ -12,6 +12,10 @@
   height: 50em;
   background-repeat: no-repeat;
 }
+.service-wwu-mockup {
+  background-image: url('../assets/Mockups/ServiceHWWork-primary.png');
+  background-repeat: no-repeat;
+}
 
 .hww-photos{
   height: 23em;

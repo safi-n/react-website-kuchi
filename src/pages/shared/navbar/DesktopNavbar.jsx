@@ -71,14 +71,14 @@ const DesktopNavbar = () => {
         </div>
         <div className="navbar-link">
           <Link
-            to="/programs"
+            to="/our-work"
             className={
-              pathMatch("/programs")
+              pathMatch("/our-work")
                 ? "font-bold text-primary"
                 : "font-light text-white"
             }
           >
-            Programs
+            Our Work
           </Link>
         </div>
         <div className="navbar-link">

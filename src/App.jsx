@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomePage
-from "./pages/homePage/HomePage";
+import HomePage from "./pages/homePage/HomePage";
+import OurWorkPage from './pages/ourWork/OurWorkPage'
 import Navbar from "./pages/shared/navbar/Navbar";
 import Footer from "./pages/shared/footer/Footer";
 import About from "./pages/about/About";
@@ -16,6 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<About/>} />
           <Route path="/services" element={<ServicePage/>} />
+          <Route path="/our-work" element={<OurWorkPage/>} />
         </Routes>
         <Footer/>
       </Router>
