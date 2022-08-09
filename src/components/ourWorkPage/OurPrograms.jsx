@@ -10,7 +10,7 @@ const OurPrograms = () => {
 
       <div className="ow-programs-boxes flex p-16">
         {/* Box - Kabul street */}
-        <div className="ow-program-box p-2 shadow-lg mr-3">
+        <div className="ow-program-box p-2 shadow-lg mr-5">
           <div className="ow-program-images-box grid grid-cols-3">
             <div className="img-box">
               <img src={pic} alt="" />
@@ -34,7 +34,7 @@ const OurPrograms = () => {
           </div>
         </div>
         {/* Box - 4so  */}
-        <div className="ow-program-box p-2 shadow-lg mr-3">
+        <div className="ow-program-box p-2 shadow-lg mr-5">
         <div className="ow-program-images-box grid grid-cols-3">
             <div className="img-box">
               <img src={pic} alt="" />
@@ -58,7 +58,7 @@ const OurPrograms = () => {
           </div>
         </div>
         {/* Box - Election 97 */}
-        <div className="ow-program-box p-2 shadow-lg mr-3">
+        <div className="ow-program-box p-2 shadow-lg mr-5">
         <div className="ow-program-images-box grid grid-cols-3">
             <div className="img-box">
               <img src={pic} alt="" />
@@ -82,7 +82,7 @@ const OurPrograms = () => {
           </div>
         </div>
         {/* Box - Tashwiq */}
-        <div className="ow-program-box p-2 shadow-lg mr-3">
+        <div className="ow-program-box p-2 shadow-lg mr-5">
         <div className="ow-program-images-box grid grid-cols-3">
             <div className="img-box">
               <img src={pic} alt="" />
