@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 const AboutMain = () => {
   return (
     <div className="about-main-container h-screen flex items-center justify-between pt-24">
       <div className="about-main-link flex flex-col leading-9">
-        <Link to={""}>About Us</Link>
-        <Link to={""}>Our Team</Link>
-        <Link to={""}>What We Do</Link>
-        <Link to={""}>Our Mission</Link>
+        <h2>About Us</h2>
+        <HashLink to={"/about-us#meet-team"} className='text-grey hover:text-black hover:ml-3'>Our Team</HashLink>
+        <HashLink to={"/about-us#what-we-do"} className='text-grey hover:text-black hover:ml-3'>What We Do</HashLink>
+        <HashLink to={"/about-us#our-mission"} className='text-grey hover:text-black hover:ml-3'>Our Mission</HashLink>
       </div>
       <div className="about-main-content ">
         <h2 className="font-light text-4xl mb-4">ABOUT US</h2>

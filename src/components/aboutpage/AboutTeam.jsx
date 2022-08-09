@@ -3,7 +3,7 @@ import MeetTeamData from "../../data/MeetTeamData";
 const AboutTeam = () => {
   return (
     <>
-      <div className="meet-team-conatiner">
+      <div className="meet-team-conatiner" id="meet-team">
         <div className="meet-team-title text-center mb-20">
           <h2 className="font-light text-3xl">
             MEET THE <span className="font-medium">TEAM</span>

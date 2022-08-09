@@ -4,7 +4,7 @@ import OrgCapability from '../../data/OrgCapability'
 const AboutWhatWeDo = () => {
   return (
     <>
-    <div className="what-we-do-container mt-20">
+    <div className="what-we-do-container mt-20" id='what-we-do'>
       <div className="what-we-do-title text-center">
         <h2 className='text-3xl font-light'>WHAT WE <span className='font-medium'>DO</span></h2>
       </div>

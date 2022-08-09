@@ -29,7 +29,7 @@ const ourMissionData = [
 const OurMission = () => {
   return (
     <div>
-      <div className="our-mission-title text-center mb-20">
+      <div className="our-mission-title text-center mb-20" id="our-mission">
         <h2 className="text-3xl">OUR MISSION</h2>
       </div>
       <ul className="flex mb-36 items-center justify-around">
