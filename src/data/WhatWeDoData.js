@@ -16,7 +16,7 @@ const WhatWeDoData = [
     info: 'Our Team is a full-service multi-media production company, handling projects from script to screen, and producing in all high-definition formats. Our background includes PSA and commercial production, corporate communications, television, documentaries, web video, and more.'
   },
   {
-    id: '01',
+    id: '03',
     image: AnimationCapability,
     title: 'ANIMATION CAPABILITY',
     info: 'We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.'
