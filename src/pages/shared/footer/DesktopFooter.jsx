@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../../assets/logo/KuchiLogo-Orignal.png'
+import Logo from '../../../assets/logo/KuchiLogo-Orignal.svg'
 import Facebook from '../../../assets/logo/Icon awesome-facebook-f.svg'
 import Twitter from '../../../assets/logo/Icon awesome-twitter.svg'
 import Youtube from '../../../assets/logo/Icon awesome-youtube.svg'

@@ -38,14 +38,14 @@ const ServiceHowWork = () => {
           </p>
         </div>
         <div className="work-lists">
-          <ul className="flex justify-between">
+          <ul className="flex justify-evenly ml-6">
             {
             workLists.map(work => {
               return(
                 <li key={work.id} className='mt-10'>
                   <img src={work.image} alt="work list img" className="hww-photos"/>
                   <h2 className="mb-5 font-medium pl-6">{work.title}</h2>
-                  <p className="pl-6 pr-20 font-extralight text-sm text-grey">{work.description}</p>
+                  <p className="pl-6 pr-36 font-extralight text-sm text-grey">{work.description}</p>
                 </li>
               )
             })
