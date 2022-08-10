@@ -2,7 +2,7 @@ import React from 'react'
 import projectsDocumentariesList from '../../data/ProjectsDocumentary'
 const ProjectsDocumentary = () => {
   return (
-    <div className='projects-documentaries-container'>
+    <div className='projects-documentaries-container mt-20'>
       <div className="documentaries-title">
         <h2 className='text-3xl'>DOCUMENTARIES</h2>
       </div>
@@ -11,9 +11,9 @@ const ProjectsDocumentary = () => {
         {
           projectsDocumentariesList.map(documentary => {
             return(
-              <li className='flex space-x-6 py-9'>
-                <div className="doc-image pr-3">
-                  <img src={documentary.image} alt=""/>
+              <li className='flex space-x-6 py-5'>
+                <div className="doc-image pr-4">
+                  <img src={documentary.image} alt="" className='doc-image'/>
                 </div>
                 <div className="doc-info">
                   <h2 className='text-xl'>{documentary.title} <span className='text-sm font-light'> ({documentary.year})</span></h2>
