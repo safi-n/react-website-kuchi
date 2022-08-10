@@ -7,6 +7,7 @@ const projectsDocumentariesList = [
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
+    organization: 'UNICEF',
     caption: 'We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.'
   },
   {
@@ -15,6 +16,7 @@ const projectsDocumentariesList = [
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
+    organization: 'UNICEF',
     caption: 'We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.'
   },
   {
@@ -23,6 +25,7 @@ const projectsDocumentariesList = [
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
+    organization: 'UNICEF',
     caption: 'We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.'
   },
   {
@@ -31,6 +34,7 @@ const projectsDocumentariesList = [
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
+    organization: 'UNICEF',
     caption: 'We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.'
   },
   {
@@ -39,6 +43,7 @@ const projectsDocumentariesList = [
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
+    organization: 'UNICEF',
     caption: 'We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.We are always aiming to evoke strong emotions in viewers. This is what allows us to create stunning 2D animated videos for our clients. We believe that sharing a story through innovative presentation technology creates a connection between the viewer and the product.'
   },
   {

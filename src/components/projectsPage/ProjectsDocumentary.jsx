@@ -4,22 +4,21 @@ const ProjectsDocumentary = () => {
   return (
     <div className='projects-documentaries-container'>
       <div className="documentaries-title">
-        <h2>DOCUMENTARIES</h2>
+        <h2 className='text-3xl'>DOCUMENTARIES</h2>
       </div>
       <div className="documentaries-lists">
         <ul className='docmentary-list'>
         {
           projectsDocumentariesList.map(documentary => {
             return(
-              <li>
-                <div className="doc-image">
-                  <img src={documentary.image} alt="" />
+              <li className='flex space-x-6 py-9'>
+                <div className="doc-image pr-3">
+                  <img src={documentary.image} alt=""/>
                 </div>
                 <div className="doc-info">
-                  <h2>{documentary.title} - <span>{documentary.year}</span></h2>
-                  <p>{documentary.caption}</p>
-                  <span>--------</span>
-                  <h2>Organization - {documentary.organization}</h2>
+                  <h2 className='text-xl'>{documentary.title} <span className='text-sm font-light'> ({documentary.year})</span></h2>
+                  <p className='font-extralight py-4 doc-border'>{documentary.caption}</p>
+                  <h2 className='font-light text-grey'>Organization - {documentary.organization}</h2>
                 </div>
               </li>
             )
