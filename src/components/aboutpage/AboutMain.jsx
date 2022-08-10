@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 const AboutMain = () => {
   return (
-    <div className="about-main-container h-screen flex items-center justify-between pt-24">
+    <div className="about-main-container h-screen flex items-center justify-between pt-28">
       <div className="about-main-link flex flex-col leading-9">
         <h2>About Us</h2>
         <HashLink to={"/about-us#meet-team"} className='text-grey hover:text-black hover:ml-3'>Our Team</HashLink>
@@ -11,7 +10,7 @@ const AboutMain = () => {
         <HashLink to={"/about-us#our-mission"} className='text-grey hover:text-black hover:ml-3'>Our Mission</HashLink>
       </div>
       <div className="about-main-content ">
-        <h2 className="font-light text-4xl mb-4">ABOUT US</h2>
+        <h2 className="font-light text-4xl mb-6">ABOUT <span className="font-medium">US</span></h2>
         <p className="text-lg text-grey font-light leading-9">
           Kuchi Films was founded in 2010 by a team of Afghan and foreign media
           experts with over 30 years of combined experience in the creative
