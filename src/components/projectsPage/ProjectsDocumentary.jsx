@@ -11,7 +11,7 @@ const ProjectsDocumentary = () => {
         {
           projectsDocumentariesList.map(documentary => {
             return(
-              <li className='flex space-x-6 py-5'>
+              <li className='flex space-x-6 py-5' key={documentary.id}>
                 <div className="doc-image pr-4">
                   <img src={documentary.image} alt="" className='doc-image'/>
                 </div>

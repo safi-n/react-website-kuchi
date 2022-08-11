@@ -21,7 +21,7 @@ const PhotoCollection = () => {
           {photoCollectionList.map((photo) => {
             return (
               <li key={photo.id}>
-                <img src={photo.image} alt="" />
+                <img src={photo.image} alt="" className="PhotoCollectionIMG"/>
               </li>
             );
           })}
