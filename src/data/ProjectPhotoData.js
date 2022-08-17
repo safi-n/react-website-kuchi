@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid"
-import image from '../assets/IMG/OurWorkMain.png'
+import ProjectImage from '../assets/IMG/OurWorkMain.png'
 const PhotoCollectionList = [
   {
     id: uuidv4(),
@@ -7,36 +7,23 @@ const PhotoCollectionList = [
     year: '2022',
     caption: 'lorem lorem hello how are you this project is about the new website for kuchi films and i have to finish it as soon as possibke and find a solution to make this website look more beautifu;',
     org: 'Organization PEHO',
-    images: {
-        image1: image,
-        image2: image,
-        image3: image,
-        image4: image,
-        image5: image,
-        image6: image,
-        image7: image,
-        image8: image,
-        image9: image,
-      }
-  },
-  {
-    id: uuidv4(),
-    title: 'Tile goes here',
-    year: '2022',
-    caption: 'lorem lorem hello how are you this project is about the new website for kuchi films and i have to finish it as soon as possibke and find a solution to make this website look more beautifu;',
-    org: 'Organization PEHO',
     images: [
       {
-        image1: image,
-        image2: image,
-        image3: image,
-        image4: image,
-        image5: image,
-        image6: image,
-        image7: image,
-        image8: image,
-        image9: image,
-      }
+        id: 'img1',
+        image: ProjectImage,
+      },
+      {
+        id: 'img2',
+        image: ProjectImage,
+      },
+      {
+        id: uuidv4(),
+        image: ProjectImage,
+      },
+      {
+        id: uuidv4(),
+        image: ProjectImage,
+      },
     ]
   },
   {
@@ -47,18 +34,48 @@ const PhotoCollectionList = [
     org: 'Organization PEHO',
     images: [
       {
-        image1: image,
-        image2: image,
-        image3: image,
-        image4: image,
-        image5: image,
-        image6: image,
-        image7: image,
-        image8: image,
-        image9: image,
-      }
+        id: 'img3',
+        image: ProjectImage,
+      },
+      {
+        id: 'img4',
+        image: ProjectImage,
+      },
+      {
+        id: uuidv4(),
+        image: ProjectImage,
+      },
+      {
+        id: uuidv4(),
+        image: ProjectImage,
+      },
+    ]
+  },
+  {
+    id: uuidv4(),
+    title: 'Tile goes here',
+    year: '2022',
+    caption: 'lorem lorem hello how are you this project is about the new website for kuchi films and i have to finish it as soon as possibke and find a solution to make this website look more beautifu;',
+    org: 'Organization PEHO',
+    images: [
+      {
+        id: 'img3',
+        image: ProjectImage,
+      },
+      {
+        id: 'img4',
+        image: ProjectImage,
+      },
+      {
+        id: uuidv4(),
+        image: ProjectImage,
+      },
+      {
+        id: uuidv4(),
+        image: ProjectImage,
+      },
     ]
   },
 ]
 
-export default PhotoCollectionList
+export default PhotoCollectionList;

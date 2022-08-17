@@ -1,9 +1,14 @@
-import change from '../assets/IMG/kuchiBaba.jpg'
+import photo5 from '../assets/photoCollection/PhotoCollection5.jpg'
+import photo6 from '../assets/photoCollection/PhotoCollection6.jpg'
+import photo7 from '../assets/photoCollection/PhotoCollection7.jpg'
+import photo8 from '../assets/photoCollection/PhotoCollection8.jpg'
+import photo9 from '../assets/photoCollection/PhotoCollection9.jpg'
+import photo10 from '../assets/photoCollection/PhotoCollection10.jpg'
 import { v4 as uuidv4 } from 'uuid'
 const projectsDocumentariesList = [
   {
     id: uuidv4(),
-    image: change,
+    image: photo5,
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
@@ -12,7 +17,7 @@ const projectsDocumentariesList = [
   },
   {
     id: uuidv4(),
-    image: change,
+    image: photo6,
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
@@ -21,7 +26,7 @@ const projectsDocumentariesList = [
   },
   {
     id: uuidv4(),
-    image: change,
+    image: photo7,
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
@@ -30,7 +35,7 @@ const projectsDocumentariesList = [
   },
   {
     id: uuidv4(),
-    image: change,
+    image: photo8,
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
@@ -39,7 +44,7 @@ const projectsDocumentariesList = [
   },
   {
     id: uuidv4(),
-    image: change,
+    image: photo9,
     title: 'BLACK & WHITE',
     year: '2019',
     lenght: '60',
@@ -48,7 +53,7 @@ const projectsDocumentariesList = [
   },
   {
     id: uuidv4(),
-    image: change,
+    image: photo10,
     title: 'WHAT THE HELL',
     year: '2019',
     lenght: '60',
