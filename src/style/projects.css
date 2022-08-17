@@ -11,3 +11,8 @@
 .doc-image{
   width: 105em;
 }
+
+.photo-shoot-list-photos{
+  width: 25vw;
+  border-top: 1px solid rgb(199, 199, 199);
+}
