@@ -5,7 +5,7 @@ const PhotoCollectionList = [
     id: uuidv4(),
     title: 'Tile goes here',
     year: '2022',
-    caption: 'lorem lorem hello how are you this project is about the new website for kuchi films and i have to finish it as soon as possibke and find a solution to make this website look more beautifu;',
+    caption: 'lorem lorem hello how are you this project is about the new website for kuchi films and i have to finish it as soon as possibke and find a solution to make this website look more beautifu; orem lorem hello how are you this project is about the new website for kuchi films and i have to finish it as soon as possibke and find a solution to make this website look more beautifu;orem lorem hello how are you this project is about the',
     org: 'Organization PEHO',
     images: [
       {

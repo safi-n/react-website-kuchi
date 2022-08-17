@@ -10,10 +10,10 @@ const ProjectsPhotoShoot = () => {
       {
         PhotoCollectionList.map(singlePhoto => {
           return (
-            <li key={singlePhoto.id} className='photo-shoot-list'>
-              <div className="photo-shoot-caption p-30">
-                <h2 className=''>{singlePhoto.title} <span>{singlePhoto.year}</span></h2>
-                <p>{singlePhoto.caption}</p>
+            <li key={singlePhoto.id} className='photo-shoot-list mt-10'>
+              <div className="photo-shoot-caption">
+                <h2 className='text-xl'>{singlePhoto.title}  <span className='text-sm font-extralight'> ({singlePhoto.year})</span></h2>
+                <p className='font-light text-xs mt-4'>{singlePhoto.caption}</p>
                 <h2>Organization: {singlePhoto.org}</h2>
               </div>
               <div className="photo-shoot-images">
