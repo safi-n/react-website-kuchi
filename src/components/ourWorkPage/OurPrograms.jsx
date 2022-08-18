@@ -25,7 +25,7 @@ const OurPrograms = () => {
               <img src={test} alt=""/>
             </div>
             <div className="img-box col-span-3 -m-3">
-              <img src={test} alt=""/>
+              <img src={test} alt="" className="h-44"/>
             </div>
           </div>
           <div className="ow-program-description pl-2">

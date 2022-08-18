@@ -15,6 +15,7 @@ import logoContent9 from "../../assets/logo/ZRPMbi.tif@2x.png";
 import LatestWorkList from "../../components/homepage/LatestWorkList";
 import PhotoWorkList from "../../components/homepage/PhotoWorkList";
 import AnimationWorkList from "../../components/homepage/AnimationWorkList";
+import { HashLink } from "react-router-hash-link";
 
 const HomePage = () => {
   return (
@@ -47,7 +48,7 @@ const HomePage = () => {
               <div className="technical-title">
                 <h2 className="text-xl font-normal mb-2">TECHNICAL CAPACITY</h2>
                 <div className="technical-button bg-primary p-2 mb-8">
-                  <Link to={"/about-us"}>LEARN MORE</Link>
+                  <HashLink to={"/about-us#technicalCapacity"}>LEARN MORE</HashLink>
                 </div>
               </div>
               <div className="technical-lists flex justify-between">
@@ -70,7 +71,7 @@ const HomePage = () => {
                   ORGANIZATION CAPACITY
                 </h2>
                 <div className="organizational-button bg-primary p-2 mb-8">
-                  <Link to={"/about-us"}>LEARN MORE</Link>
+                  <HashLink to={"/about-us#orgCapacity"}>LEARN MORE</HashLink>
                 </div>
               </div>
               <div className="organizational-lists flex justify-between">

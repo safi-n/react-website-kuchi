@@ -8,10 +8,10 @@ const AboutWhatWeDo = () => {
       <div className="what-we-do-title text-center">
         <h2 className='text-3xl font-light'>WHAT WE <span className='font-medium'>DO</span></h2>
       </div>
-      <div className="what-we-do-cat mt-20">
+      <div className="what-we-do-cat mt-20" id='technicalCapacity'>
         <h2 className='text-xl'>TECHNICAL CAPACITY</h2>
       </div>
-      <div className="what-we-do-data">
+      <div className="what-we-do-data" >
         <ul className='flex justify-between '>
           {
             WhatWeDoData.map(technicalData => {
@@ -27,7 +27,7 @@ const AboutWhatWeDo = () => {
         </ul>
       </div>
       {/* ----------------------------- */}
-      <div className="what-we-do-cat mt-20">
+      <div className="what-we-do-cat mt-20" id='orgCapacity'>
         <h2 className='text-xl'>ORGANIZATIONAL CAPACITY</h2>
       </div>
       <div className="what-we-do-data">
