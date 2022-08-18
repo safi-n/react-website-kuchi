@@ -21,7 +21,7 @@ const ProjectsPhotoShoot = () => {
                 singlePhoto.images.map(singlePhotoImage => {
                   return (
                     <div key={singlePhotoImage.id} className='m-2'>
-                      <img src={singlePhotoImage.image} className='h-44'/>
+                      <img src={singlePhotoImage.image} className='h-44' alt='pic'/>
                     </div>
                   )
                 }) 

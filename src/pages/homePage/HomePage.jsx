@@ -1,6 +1,5 @@
 import TechnicalCat from "../../data/TechnicalCat";
 import OrganizationalCat from "../../data/OrganizationalCat";
-import { Link } from "react-router-dom";
 import "../../style/home.css";
 import kuchiBaba from "../../assets/IMG/kuchiBaba.jpg";
 import logoContent from "../../assets/logo/Asset 6@2x.png";
@@ -22,7 +21,7 @@ const HomePage = () => {
     <>
       <div className="main-cont flex flex-col">
         <div className="hero-container mb-36">
-          <img src={kuchiBaba} alt="" />
+          <img src={kuchiBaba} alt="" className="HomeBannerImg"/>
         </div>
         <div className="home-container text-center">
           {/* ------ ABOUT KUCHI */}
@@ -55,7 +54,7 @@ const HomePage = () => {
                 {TechnicalCat.map((list) => {
                   return (
                     <div className="organizational-list">
-                      <img src={list.image} alt="list pic" />
+                      <img src={list.image} alt="list pic" className="capacityImg shadow-sm" />
                       <h2 className="mt-3 text-left font-medium">
                         {list.title}
                       </h2>
@@ -78,7 +77,7 @@ const HomePage = () => {
                 {OrganizationalCat.map((list) => {
                   return (
                     <div className="organizational-list">
-                      <img src={list.image} alt="list pic" />
+                      <img src={list.image} alt="list pic" className="capacityImg shadow-sm"/>
                       <h2 className="mt-3 text-left font-medium">
                         {list.title}
                       </h2>
@@ -97,37 +96,37 @@ const HomePage = () => {
             </div>
             {/* Row 1 */}
             <div className="serviced-row-1 flex p-8 border-primary items-center">
-              <div className="serviced-box shadow-lg p-3">
+              <div className="serviced-box hover:shadow-lg p-3">
                 <img src={logoContent} alt="logos - comtent" />
               </div>
-              <div className="serviced-box  shadow-lg p-5 m-8">
+              <div className="serviced-box  hover:shadow-lg p-5 m-8">
                 <img src={logoContent2} alt="logos - comtent" />
               </div>
-              <div className="serviced-box  shadow-lg p-5 m-8">
+              <div className="serviced-box  hover:shadow-lg p-5 m-8">
                 <img src={logoContent3} alt="logos - comtent" />
               </div>
             </div>
             {/* Row 2 */}
             <div className="serviced-row-2 flex p-4 border-primary items-center">
-              <div className="serviced-box shadow-lg p-5 m-8">
+              <div className="serviced-box hover:shadow-lg p-5 m-8">
                 <img src={logoContent4} alt="logos - comtent" />
               </div>
-              <div className="serviced-box shadow-lg p-5 m-8">
+              <div className="serviced-box hover:shadow-lg p-5 m-8">
                 <img src={logoContent5} alt="logos - comtent" />
               </div>
-              <div className="serviced-box shadow-lg p-5 m-8">
+              <div className="serviced-box hover:shadow-lg p-5 m-8">
                 <img src={logoContent6} alt="logos - comtent" />
               </div>
             </div>
             {/* Row 3 */}
             <div className="serviced-row-3 flex p-4 border-primary items-center">
-              <div className="serviced-box shadow-lg p-5 m-8">
+              <div className="serviced-box hover:shadow-lg p-5 m-8">
                 <img src={logoContent7} alt="logos - comtent" />
               </div>
-              <div className="serviced-box shadow-lg p-5 m-8 items-center">
+              <div className="serviced-box hover:shadow-lg p-5 m-8 items-center">
                 <img src={logoContent8} alt="logos - comtent" />
               </div>
-              <div className="serviced-box shadow-lg p-5 m-8">
+              <div className="serviced-box hover:shadow-lg p-5 m-8">
                 <img src={logoContent9} alt="logos - comtent" />
               </div>
             </div>
@@ -135,7 +134,7 @@ const HomePage = () => {
 
           {/* ------ OUR LATEST WORK */}
           <div className="latest-work-container">
-            <div className="latest-work-title mb-32">
+            <div className="latest-work-title mb-16">
               <h2 className="font-light text-3xl">
                 OUR LATEST <span className="font-bold">WORK</span>
               </h2>
@@ -146,7 +145,7 @@ const HomePage = () => {
                 DOCUMANTARIES
               </h2>
             </div>
-            <div className="latest-works-list grid grid-flow-col grid-row-1">
+            <div className="latest-works-list grid grid-flow-col grid-row-1 mb-20">
               <LatestWorkList />
             </div>
             {/* Work Photo List */}
@@ -159,12 +158,12 @@ const HomePage = () => {
               <PhotoWorkList/>
             </div>
             {/* Animation Work List */}
-            <div className="latest-work-category">
+            <div className="latest-work-category hidden">
               <h2 className="text-primary text-left mb-2 text-xl">
                 ANIMATION
               </h2>
             </div>
-            <div className="latest-works-list grid grid-flow-col grid-row-1 mb-20">
+            <div className="latest-works-list -grid- grid-flow-col grid-row-1 mb-20 hidden">
               <AnimationWorkList />
             </div>
           </div>

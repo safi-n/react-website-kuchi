@@ -1,18 +1,20 @@
-import Logo from '../assets/IMG/kuchiBaba.jpg'
+import AnimationImg from '../assets/IMG/animationCapacity2.gif'
+import ProductionImg from '../assets/IMG/productionCapacity.jpeg'
+import GraphicImg from '../assets/IMG/graphicCapacity3.jpeg'
 const TechnicalCat = [
   {
     id: "01",
-    image: Logo,
+    image: ProductionImg,
     title: "PRODUCTION CAPABILITY" 
   },
   {
     id: "02",
-    image: Logo,
+    image: GraphicImg,
     title: "GRAPHIC DESIGN CAPABILITY" 
   },
   {
     id: "03",
-    image: Logo,
+    image: AnimationImg,
     title: "ANIMATION CAPABILITY" 
   },
   

@@ -9,8 +9,8 @@ const LatestWorkList = () => {
         {LatestWorks.map((latestWorkList) => {
           return (
             <li className="latest-work-list mr-12 text-left" key={latestWorkList.id}>
-              <img src={latestWorkList.image} alt="latest work" className="" />
-              <h2 className="latest-work-title font-medium text-lg mt-2">
+              <img src={latestWorkList.image} alt="latest work" className="h-44 w-80 capacityImg" />
+              <h2 className="latest-work-title font-medium text-sm mt-4">
                 {latestWorkList.title}
               </h2>
               <p className="latest-work-dexcription font-light text-xs text-grey mt-1">

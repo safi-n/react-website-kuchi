@@ -9,7 +9,7 @@ const PhotoWorkList = () => {
           return (
             <>
               <li key={photo.id} className="mr-14 mb-8">
-                <img src={photo.image} alt="pho" />
+                <img src={photo.image} alt="pho" className="capacityImg" />
               </li>
             </>
           );

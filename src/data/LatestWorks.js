@@ -1,33 +1,36 @@
 import KuchiBaba from '../assets/IMG/kuchiBaba.jpg'
+import DrGhafarDoc from '../assets/IMG/DrGhafarDoc.jpg'
+import PathwaysDoc from '../assets/IMG/pathwaysDoc.png'
+import SanamDoc from '../assets/IMG/SanamDoc.jpg'
 
 const LatestWorks = [
   {
     id: "01",
-    image: KuchiBaba,
-    title: "Black & White",
+    image: DrGhafarDoc,
+    title: "From Color to Black & White",
     caption:
-      "loremIspus Dang with damn and damn with Daang are the barfing words that descripbe a personality have a good luck dear",
+      "A documentary about the life and work of Dr. Ghafar",
   },
   {
     id: "02",
-    image: KuchiBaba,
-    title: "Hello It me",
+    image: PathwaysDoc,
+    title: "Pathways to Justice",
     caption:
-      "loremIspus Dang with damn and damn with Daang are the barfing words that descripbe a personality have a good luck dear",
+      "A documentary about the legal system of Kunduz Province",
   },
   {
     id: "03",
     image: KuchiBaba,
-    title: "Black & Greeb",
+    title: "Tazi – A journey with the Afghan hounds",
     caption:
-      "loremIspus Dang with damn and damn with Daang are the barfing words that descripbe a personality have a good luck dear",
+      "A short film about the Afghan hound in its natural habitat",
   },
   {
     id: "04",
-    image: KuchiBaba,
-    title: "the phenix",
+    image: SanamDoc,
+    title: "Sanam",
     caption:
-      "loremIspus Dang with damn and damn with Daang are the barfing words that descripbe a personality have a good luck dear",
+      "A short film about a practitioner of classical music in eastern Afghanistan",
   },
 ];
 

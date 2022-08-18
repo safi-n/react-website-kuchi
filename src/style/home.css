@@ -47,3 +47,17 @@
 .serviced-box img{
   height: 5em;
 }
+
+.capacityImg{
+  object-position: center;
+  object-fit: cover;
+}
+.capacityImg:hover{
+  transform: scale(1.03);
+  transition: .7s;
+}
+
+.HomeBannerImg{
+  object-fit: cover;
+  object-position: bottom;
+}

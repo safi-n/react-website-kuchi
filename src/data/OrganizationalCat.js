@@ -1,18 +1,20 @@
-import Logo from '../assets/IMG/kuchiBaba.jpg'
+import StudioImg from '../assets/IMG/studioCapacity.jpeg'
+import TravelImg from '../assets/IMG/travelCapacity.jpeg'
+import LanguageImg from '../assets/IMG/languageCapacity2.png'
 const OrganizationalCat = [
   {
     id: "01",
-    image: Logo,
+    image: LanguageImg,
     title: "MULTI-LANGUAGE CAPABILITY" 
   },
   {
     id: "02",
-    image: Logo,
+    image: TravelImg,
     title: "ABILITY TO TRAVEL" 
   },
   {
     id: "03",
-    image: Logo,
+    image: StudioImg,
     title: "ACCESS TO RECORDING STUDIO" 
   },
   
