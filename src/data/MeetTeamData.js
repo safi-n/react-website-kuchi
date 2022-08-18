@@ -27,9 +27,9 @@ const MeetTeamData = [
   {
     id: '04',
     image: Lawerance,
-    name: 'AHMAD SULTANI',
-    position: 'Senior Media Planner',
-    biography: 'Ahmad is a creative media planner, communications, and public relations specialist with more than ten years of experience. He is well-versed in leading and mentoring teams throughout the entire project cycle. He has successfully designed and implemented various public awareness campaigns raising awareness among Afghan Youth. His past work experiences include Head of Production for the Administrative Office of the President of Afghanistan, Producer for 1TV Media and Graphic Designer & Editor for Awaz Media Group.'
+    name: 'LAURENCE CAMERON',
+    position: 'Co-Founder & Director',
+    biography: "Laurence is a British Filmmaker, who holds a degree in Documentary Film Making form the International Film School in Wales. He worked in various capacities, amongst others as a local news journalist and for BBC. Laurence, who mainly works freelance, has produced a number of films for clients on an international basis that took him to places as far flung as Mongolia and Siberia. Hi documentary 'Tough Guy 453' won 'best film' at the Fresh Film Awards 2010. Laurence has been in Afghanistan for the past year, initially working for a media company, producing material to promote the Afghan National Army. Having travelled through the country extensively, Laurence now intents to translate his newly found passion into his work to the greater benefit of the people and does not intent to leave any time soon"
   },
 ]
 
